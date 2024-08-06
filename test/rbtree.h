@@ -36,6 +36,7 @@ void printTree(rbtree *t, node_t *node);
 void left_rotate(rbtree *t, node_t *x);
 void right_rotate(rbtree *t, node_t *y);
 int checkPlace(node_t *parent, node_t *cur);
+void recursive_delete(rbtree *t, node_t *cur);
 
 ////////////////////////////////////////
 void printTree(rbtree *t, node_t *node);
