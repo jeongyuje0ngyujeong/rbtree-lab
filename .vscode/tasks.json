@@ -8,6 +8,7 @@
             "args": [
                 "-g",
                 "${file}",
+                "driver.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
